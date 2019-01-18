@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="tests.MainPageTest" time="32.736" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="V3-initial-maven"/>
+    <property name="PWD" value="/Users/mbp15-inchretina/Downloads"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/mbp15-inchretina/.jenkins"/>
+    <property name="PATH" value="/Users/mbp15-inchretina/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/webdriver/:/Users/mbp15-inchretina/.rvm/bin:/Applications/apache-maven-3.6.0/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="6c766c32c5f02e90"/>
+    <property name="POM_ARTIFACTID" value="V3"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="TERM_SESSION_ID" value="E6538C63-E87F-4E0C-892D-93B38926A553"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="V3"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="rvm_version" value="1.27.0 (latest)"/>
+    <property name="user.name" value="Mac"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="V3-initial-maven"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:9090/job/V3-initial-maven/13/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#13"/>
+    <property name="TMPDIR" value="/var/folders/5f/h6n4sydd5tlg490_fghwqbgc0000gp/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib"/>
+    <property name="rvm_prefix" value="/Users/mbp15-inchretina"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="13"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/mbp15-inchretina/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:9090/job/V3-initial-maven/13/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:9090/job/V3-initial-maven/display/redirect"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="Mac"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/mbp15-inchretina"/>
+    <property name="POM_GROUPID" value="V3"/>
+    <property name="user.home" value="/Users/mbp15-inchretina"/>
+    <property name="BUILD_TAG" value="jenkins-V3-initial-maven-13"/>
+    <property name="JENKINS_SERVER_COOKIE" value="6c766c32c5f02e90"/>
+    <property name="HUDSON_URL" value="http://localhost:9090/"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="test" value="MainPageTest"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/mbp15-inchretina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="_system_arch" value="x86_64"/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.vRns6YaaF5/Render"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="_system_version" value="10.12"/>
+    <property name="maven.home" value="/Users/mbp15-inchretina/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="java.class.path" value="/Users/mbp15-inchretina/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.12.jar:/Users/mbp15-inchretina/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/boot/plexus-classworlds-2.5.2.jar:/Users/mbp15-inchretina/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/mbp15-inchretina/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven /Users/mbp15-inchretina/.jenkins/war/WEB-INF/lib/remoting-3.27.jar /Users/mbp15-inchretina/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar /Users/mbp15-inchretina/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar 57496"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/Users/mbp15-inchretina/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="java.io.tmpdir" value="/var/folders/5f/h6n4sydd5tlg490_fghwqbgc0000gp/T/"/>
+    <property name="HUDSON_HOME" value="/Users/mbp15-inchretina/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/mbp15-inchretina/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/bin"/>
+    <property name="BUILD_URL" value="http://localhost:9090/job/V3-initial-maven/13/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="JAVA_MAIN_CLASS_1686" value="Main"/>
+    <property name="OLDPWD" value="/Users/mbp15-inchretina"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.h5uI6VzmGU/Listeners"/>
+    <property name="rvm_path" value="/Users/mbp15-inchretina/.rvm"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="rvm_bin_path" value="/Users/mbp15-inchretina/.rvm/bin"/>
+    <property name="com.apple.java.jvmTask" value="CommandLine"/>
+    <property name="_system_type" value="Darwin"/>
+    <property name="java.ext.dirs" value="/Users/mbp15-inchretina/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F6:0x0:0x0"/>
+    <property name="user.dir" value="/Users/mbp15-inchretina/Documents/MyRepos/V3_1/v3"/>
+    <property name="JOB_URL" value="http://localhost:9090/job/V3-initial-maven/"/>
+    <property name="RBENV_SHELL" value="bash"/>
+    <property name="line.separator" value="
+"/>
+    <property name="JAVA_ARCH" value="x86_64"/>
+    <property name="MAVEN_HOME" value="/Users/mbp15-inchretina/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="13"/>
+    <property name="JENKINS_URL" value="http://localhost:9090/"/>
+    <property name="TERM_PROGRAM_VERSION" value="388.1.1"/>
+    <property name="_system_name" value="OSX"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/mbp15-inchretina/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar"/>
+    <property name="WORKSPACE" value="/Users/mbp15-inchretina/.jenkins/workspace/V3-initial-maven"/>
+    <property name="maven3.interceptor.common" value="/Users/mbp15-inchretina/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="Mac"/>
+  </properties>
+  <testcase classname="tests.MainPageTest" name="addNewSparePart" time="32.736"/>
+</testsuite>

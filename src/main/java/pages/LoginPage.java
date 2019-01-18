@@ -30,13 +30,9 @@ public class LoginPage extends BasePage{
 
     public void loginUser(String login, String password){
         action.sendKeys(loginField, login);
-//        loginField.sendKeys(login);
         action.sendKeys(passwordField, password);
-//        passwordField.sendKeys(password);
         action.clickElement(submitButton);
     }
-
-
 
 
 }

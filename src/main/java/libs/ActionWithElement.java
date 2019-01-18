@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ActionWithElement {
@@ -25,13 +26,12 @@ public class ActionWithElement {
     public void clickElement(WebElement element){
         wait.until(ExpectedConditions.visibilityOf(element));
         wait.until(ExpectedConditions.elementToBeClickable(element));
-        WebElement el = element;
         try{
             element.click();
-            logger.info("Clicked on element: "+ el);
+            logger.info("Clicked on element");
         }catch(Exception e){
-            logger.error("ERROR! Couldn't click on element: "+ el+"  "+e);
-            Assert.fail("ERROR! Couldn't click on element: "+ el+"   "+e);
+            logger.error("ERROR! Couldn't click on element: " +e);
+            Assert.fail("ERROR! Couldn't click on element: " +e);
         }
 
     }
@@ -46,6 +46,26 @@ public class ActionWithElement {
             Assert.fail("ERROR! Couldn't enter text: "+string+"   "+e);
         }
 
+    }
+
+    public void assertElementIsDisplayed(WebElement element){
+        try{
+            Assert.assertEquals(true, element.isDisplayed());
+            logger.info("Element is displayed!");
+        }catch(Exception e){
+            logger.error("Element is not displayed: "+e);
+        }
+
+    }
+
+    public void selectFromDropdown(WebElement select, int index){
+        try {
+            Select selectType = new Select(select);
+            selectType.selectByIndex(index);
+            logger.info("Selected index: " + index + " from drop-down ");
+        }catch(Exception e){
+            logger.info("Selection of index: "+ index+" FAILED! "+e);
+        }
     }
 
 

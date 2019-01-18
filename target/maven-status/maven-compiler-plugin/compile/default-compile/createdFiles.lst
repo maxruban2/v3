@@ -1,0 +1,7 @@
+libs/ConfigData.class
+libs/ActionWithElement.class
+pages/BasePage.class
+pages/SparesPage.class
+pages/LoginPage.class
+pages/EditSparePage.class
+pages/MainPage.class
